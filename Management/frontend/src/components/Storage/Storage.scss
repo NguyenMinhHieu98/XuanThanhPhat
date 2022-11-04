@@ -1,0 +1,28 @@
+.lot {
+    margin: 2% 10%;
+
+    .fcontainer {
+        display: flex;
+        align-items: center;
+        margin-top: 3%;
+
+        .ftext {
+            width: 15%;
+            font-size: 110%;
+        }
+    
+        .fip {
+            width: 30%;
+            margin-right: 30%;
+        }
+    }
+
+    th {
+        background-color:#198754;
+        color: white;
+    }
+
+    .btn {
+        margin-right: 3%;
+    }
+}
