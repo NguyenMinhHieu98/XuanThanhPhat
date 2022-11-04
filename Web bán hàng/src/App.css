@@ -1,0 +1,95 @@
+.app {
+  margin: -0.0125em 0;
+}
+
+.contains {
+  position: sticky;
+  top: 0;
+  z-index: 3;
+}
+
+.menu {
+  background-color: rgba(238, 238, 238, 1);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0.5% 0;
+}
+
+.link {
+  text-decoration: none;
+  color: black; 
+  font-weight: bold;
+  font-size: 120%;
+  padding: 0.2% 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dropdown1 {
+  text-decoration: none;
+  color: black; 
+  font-weight: bold;
+  font-size: 120%;
+  padding: 0.2% 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dropdown2 {
+  text-decoration: none;
+  color: black; 
+  font-weight: bold;
+  font-size: 120%;
+  padding: 0.2% 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dropbtn {
+  text-decoration: none;
+  color: black; 
+  font-weight: bold;
+  font-size: 120%;
+  padding: 0.2% 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 10em;
+  box-shadow: 0 0.5em 1em 0 rgba(0,0,0,0.2);
+  z-index: 7;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 0.75em 1em;
+  text-decoration: none;
+  display: block;
+  border-bottom: 0.09375em solid rgb(192,192,192);
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {color: "black"}
+
+.btn-contains {
+  padding-top: 0.625em;
+  display: flex;
+  justify-content: end;
+}

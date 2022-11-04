@@ -1,0 +1,115 @@
+.tt-1 {
+    text-align: center;
+    margin-top: 1%;
+}
+
+.bd {
+    display: flex;
+    flex-direction: row;
+}
+
+.bd1 {
+    margin-left: 4%;
+    padding-right: 3%;
+}
+
+.sr {
+    display: flex;
+    align-items: center;
+}
+
+.ip {
+    margin-right: 3%;
+    width: 100%;
+    height: 2.1875em;
+}
+
+
+.tt-2 {
+    margin: 10% 0;
+    font-size: 125%;
+}
+
+.parent1 {
+    border: 0.0625em solid rgb(169,169,169);
+}
+
+.child1 {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 4% 4%;
+    border-bottom: 0.0625em solid rgb(169,169,169);
+}
+
+.i1 {
+    width: 50px;
+    height: 50px;
+    margin-right: 6%;
+}
+
+.tx1 {
+    font-size: 90%;
+}
+
+.sl {
+    border-left: 0.125em solid rgb(105,105,105);
+    height: 35.1875em;
+    margin-right: 2%;
+}
+
+.bd2 {
+    display: flex;
+    flex-direction: column;
+}
+.parent2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.ldiv {
+    width: 21%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 2%;
+}
+
+.child2 {
+    border: 0.0625em solid rgb(105,105,105);
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2% 2%;
+    margin-top: 0;
+    height: 17.1875em;
+}
+
+.i2 {
+    width: 100%;
+    height: 9.375em;
+}
+
+.tx2 {
+    font-weight: bold;
+    text-align: center;
+}
+
+.tx3 {
+    text-align: center;
+}
+
+.date {
+    width: 3.125em;
+    background-color: rgb(178,34,34);
+    color: white;
+    text-align: center;
+    border-radius: 50%;
+    position: relative;
+    right: 45%;
+    bottom: 77%;
+}
