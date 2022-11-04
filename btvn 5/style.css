@@ -1,0 +1,176 @@
+h1 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 10%;
+}
+
+/*Style cho box Add a task*/
+#containerAdd
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 30%;
+}
+
+/*Style phần tittle*/
+#addTask 
+{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    padding: 1% 0;
+    padding-left: 1%;
+    margin-bottom: 0;
+    background-color: rgba(128,128,128, 0.4);
+}
+
+/*Style phần body và các thẻ nằm bên trong*/
+#add
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: start;
+    border: 2px solid rgba(128,128,128, 0.4);
+    padding-bottom: 1%;
+    padding-left: 1%;
+}
+
+#item
+{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#inputToDo
+{
+    width: 98%;
+    font-size: 140%;
+}
+
+#say
+{
+    margin-top: 0;
+    font-size: 90%;
+    opacity: 0.8;
+}
+
+#btnAdd
+{
+    width: 75px;
+    height: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+    background-color: #1188d3;
+    border-radius: 10%;
+    border-color: #1188d3;
+}
+
+/*Style cho box chứa danh sách các ToDo*/
+
+/*Style phần tittle*/
+#tasks
+{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    padding: 1% 0;
+    padding-left: 1%;
+    margin-top: 4%;
+    margin-bottom: 0;
+    background-color: rgba(128,128,128, 0.4);
+}
+
+/*Style phần body và các thẻ nằm bên trong*/
+/*Phần 1*/
+#hTable
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 1%;
+}
+
+.hItem
+{
+    width: 45%;
+}
+
+.hStatus
+{
+    width: 25%;
+}
+
+.hAction
+{
+    width: 30%;
+}
+
+/*Phần 2*/
+#list
+{
+    border: 2px solid rgba(128,128,128, 0.4);
+}
+
+.toDo
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 1%;
+}
+
+.item
+{
+    width: 45%;
+}
+
+.status
+{
+    width: 25%;
+}
+
+.action
+{
+    width: 30%;
+}
+
+/*Style cho thẻ button Complete*/
+.btnComplete
+{
+    margin-right: 2%;
+    width: 80px;
+    height: 30px;
+    color: white;
+    font-weight: bold;
+    background-color: #1188d3;
+    border-radius: 10%;
+    border-color: #1188d3;
+}
+
+/*Style cho thẻ button Delete*/
+.btnDelete
+{
+    margin-right: 2%;
+    width: 70px;
+    height: 30px;
+    color: white;
+    font-weight: bold;
+    background-color: #ff4040;
+    border-radius: 10%;
+    border-color: #ff4040;
+}
